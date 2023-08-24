@@ -1,0 +1,10 @@
+score = [23, 2, 43, 53, 2, 242, 75, 65]
+print(score)
+print(score.count(23))
+print(score.copy())
+print(score.pop(6))
+print(score.index(43))
+score.append(245)
+print(score)
+score.clear()
+print(score)
