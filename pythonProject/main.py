@@ -1,28 +1,24 @@
-import cv2
-import numpy as np
+import pandas as pd
 
-# Provide the correct file path to your image file
-img_path = r"C:\Users\kk\Pictures\Saved Pictures\photo2-1618835962148-cf177563c6c0.jpg"
+# Create a sample DataFrame
+data = {'Name': ['John', 'Alice', 'Bob'],
+        'Age': [28, 24, 22],
+        'City': ['New York', 'San Francisco', 'Los Angeles']}
 
-# Load the image
-img = cv2.imread(img_path)
+df = pd.DataFrame(data)
 
-# Check if the image was loaded successfully
-if img is None:
-    print("Error: Image not found or could not be loaded.")
-else:
-    # Convert to grayscale
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    gray = cv2.medianBlur(gray, 5)
+# Set 'Name' as the index
+df.set_index('Name', inplace=True)
 
-    # Apply bilateral filter to maintain colors while reducing noise
-    color = cv2.bilateralFilter(img, 9, 3000, 3000)
+# Perform some operations that may change the index
+df['Occupation'] = ['Engineer', 'Doctor', 'Teacher']
 
-    # Create the cartoon effect
-    cartoon = cv2.bitwise_and(color, color, mask=gray)
+# Reset the index
+df_reset = df.reset_index()
 
-    cv2.imshow("Original Image", img)
-    cv2.imshow("Cartoon", cartoon)
+# Display the original and reset DataFrames
+print("Original DataFrame:")
+print(df)
 
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+print("\nDataFrame after resetting the index:")
+print(df_reset)

@@ -1,30 +1,30 @@
-# # import time
-# #
-# # import pyautogui as auto
-# #
-# # time.sleep(5)
-# #
-# # for i in range(0,100):
-# #     auto.typeWrite
-# #
-# # games = ["cricket","golf"]
-# # print(games)
-# # games.append("Hockey")
-# # print(games)
-# # games.insert(1,"Football")
-# # print(games)
-# # games.remove("golf")
-# # print(games)
-# # games.pop(1)
-# # print(games)
-# #
-# # values = (3,4,5,6,7,9,15)
-# # values.index(7,4)
-# # print(values)
-# # values.count(3)
-# # print(values)
-# # values.min(7)
-# # print(values)
+# import time
+#
+# import pyautogui as auto
+#
+# time.sleep(5)
+#
+# for i in range(0,100):
+#     auto.typeWrite
+#
+# games = ["cricket","golf"]
+# print(games)
+# games.append("Hockey")
+# print(games)
+# games.insert(1,"Football")
+# print(games)
+# games.remove("golf")
+# print(games)
+# games.pop(1)
+# print(games)
+#
+# values = (3,4,5,6,7,9,15)
+# values.index(7,4)
+# print(values)
+# values.count(3)
+# print(values)
+# values.min(7)
+# print(values)
 #
 # values = (3, 4, 5, 6, 7, 9, 15)
 #
@@ -68,7 +68,7 @@
 #
 #
 # # Read the Excel file into a DataFrame
-# df = pd.read_excel(r"C:\Users\kk\Desktop\intership\DataScience\Data-set\SampleData.csv")
+# df = pd.read_excel(r"C:\Users\kk\Desktop\internship\DataScience\Data-set\SampleData.csv")
 #
 
 # import numpy as np
@@ -240,7 +240,7 @@
 #     if name in name_list:
 #         print("It's present in list")
 #     else:
-#         print("It's is not present in list")
+#         print("It is not present in list")
 #
 #     name_list.append(name)
 
@@ -316,14 +316,14 @@
 #     i += 1
 
 # num = int(input("Enter any number: "))
-# print(f"The table of {num} is: ")
+# print(f"The tables of {num} is: ")
 #
 # for i in range(1,21):
 #     result = num * i
 #     print(f"{num} * {i} = {result}")
 
 # num = int(input("Enter any number: "))
-# print(f"The table of {num} is: ")
+# print(f"The tables of {num} is: ")
 # i = 1
 #
 # while  i < 21:
@@ -383,18 +383,203 @@
 # for i in range(1,n+1):
 #     result *= i
 
-# print(f"the factorail of {n} is: {result}")
+# print(f"the factorial of {n} is: {result}")
 
-# num = int(input("Enter number for table: "))
+# num = int(input("Enter number for tables: "))
 # print(f"The Table of {num} is: ")
 # for i in range (1,10+1):
 #     re = num * i
 #     print(f"{num} * {i} = {re}")
 
-# num = int(input("Enter number for factorail: "))
+# num = int(input("Enter number for factorial: "))
 # factorial = 1
 #
 # for i in range (1,num+1):
-#     factorial = factorial * i
+#     factorial = factorial * I
 #
 # print(f"the factorial of {num} is : {factorial}")
+
+# right-angle triangle pattern
+# string = "*"
+# for x in range(1,6):
+#     print(string * x)
+
+# n = 4
+#
+# for i in range(4):
+#     print("*" * (i+1))
+
+# print("\n")
+#   invert right-angle triangle pattern
+# string = "*"
+# for x in range(6,0,-1):
+#     print(string * x)
+#
+# n = 5
+#
+# for i in range(n):
+#     print(" " *(n - i - 1) + "*" *(2 * i + 1) + " " *(n - i - 1))
+
+# Table in reversed order
+# num = int(input("Enter number for tables: "))
+# print(f"The Table of {num} is: ")
+# for i in range (11,0,-1):
+#     re = num * i
+#     print(f"{num} * {i} = {re}")
+
+# def greet (name="XYZ"):
+#     print("Good Day \n " + name)
+# greet("Hanzala")
+# greet()
+# greet("MAs-hood")
+
+# def add (num1,num2):
+#     return num1 + num2
+
+#  add(5,2)
+# print(add(4,3))
+
+# l = ["he is a friend of mine".split()]
+# print(l)
+# l1 = ["The show is sprit against ".split()]
+# print(l1)
+# f = open("poem.txt","r")
+# d = f.read()
+# print(d)
+# f.close()
+# if "twinkle"  in  d:
+#     print("It is present")
+#     count = d.count("twinkle")
+#     print(count)
+# else:
+#     print("It is not present")
+
+# with open("poem.txt") as f:
+#     read = f.read()
+#     print(read)
+#     if "Twinkle".lower() in read:
+#         print("The word Twinkle is  present")
+#         count = read.count("twinkle")
+#         print(f"The word twinkle is present {count} time")
+#     else:
+#         print("The word Twinkle is not present")
+# def game ():
+#     score = 42
+#     return score
+#
+# score = game()
+#
+# try:
+#     with open("hiscore.txt", "a") as f:
+#         hi_score= int(f.read())
+# except Exception as e:
+#     print(f"the file is not found {e}")
+#     hi_score = 0
+#
+#
+# if hi_score < score:
+#     with open("hiscore.txt","w") as f:
+#         f.write(str(score))
+#
+# f = open('sample.txt',"r")
+# data = f.read()
+# print(data)
+#
+# data = f.read()
+# print(data)
+#
+# data = f.read()
+# print(data)
+#
+# f.close()
+
+# f = open("sample.txt","a")
+# tr = f.write("How to update it to hii")
+# print(tr)
+# f.close()
+
+
+# for i in range (2,31):
+#     with open(f"tables/multiplication_table_of{i}.txt","w") as f:
+#         for j in range(1,11):
+#             f.write(f"{i}*{j} = {i*j}")
+#             if j != 10:
+#                 f.write("\n")
+# with open("sample.txt","r") as f:
+#     d = f.read()
+#     print(d)
+#     if "dog".lower() in d.lower():
+#         new_d = d.replace("Dog","#####")
+# with open("sample.txt","w") as f:
+#     f.write(new_d)
+
+# word = ["dog","donkey","shit","yuck"]
+#
+# with open("sample.txt","r") as f:
+#     d = f.read()
+#     print(d)
+# for words in word:
+#     if words.lower() in d.lower():
+#         d = d.replace(words,"#####")
+#
+# with open("sample.txt","w") as f:
+#     f.write(d)
+
+# i = 1
+#
+# with open("logfile.txt") as f:
+#     while True:
+#         content = f.readline()
+#         if not content:
+#             break
+#         if "python" in content.strip().lower():
+#             print(f"'python' is there in line {i} ")
+#             break
+#         else:
+#             i += 1
+
+# with open("text.txt") as f:
+#     content = f.read()
+#
+# with open("copy.txt","w") as f:
+#     f.write(content)
+
+# class Number ():
+#     def sum (self,a,b):
+#         return a + b
+#
+# num = Number()
+# a = 1
+# b = 3
+# s = num.sum(a,b)
+# print(s)
+
+# class RailwayForm:
+#     typeOfFrom = "railway form"
+#     def printData (self):
+#         print(f"Name is {self.name}")
+#         print(f"Place to visit is {self.PlaceToVisit}")
+#
+#
+# hanzalaapplication = RailwayForm()
+# hanzalaapplication.name = "Hanzala"
+# hanzalaapplication.PlaceToVisit = "London"
+# hanzalaapplication.printData()
+
+class Remote:
+    def ispressedleft (self):
+        pass
+class Player:
+    def moveLeft(self):
+        pass
+    def moveRight(self):
+        pass
+    def moveTop(self):
+        pass
+
+Player1 = Player()
+Remote1 = Remote()
+
+if (Remote1.ispressedleft()):
+    Player1.moveLeft()
+
