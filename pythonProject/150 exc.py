@@ -489,3 +489,153 @@
 #
 # # Call the modified 'getinfo' static method on the class itself (not on an instance)
 # Person.getinfo()
+
+# class Per:
+#     pass
+#     @staticmethod
+#     def printdata():
+#         print("This is printdata form ")
+#
+#     @staticmethod
+#     def how():
+#         print("How is how :) wow ")
+#
+#
+# Per.printdata()
+# Per.how()
+#
+# class Employee:
+#     company = "Youtube"
+#     def __init__(self,name,age,salary ):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
+#
+#     def showdata(self):
+#         print(f"The name of person is {self.name} and the age of person is {self.age} and he works for {self.company} and his salary is {self.salary}")
+#
+# e1 = Employee("Hanzala",19,100000)
+# e2 = Employee("Mashood",20,100000)
+# e3 = Employee("Hashir",21,100000)
+#
+# e1.showdata()
+# e2.showdata()
+# e3.showdata()
+#
+# import math
+# class Circle:
+#     def __init__(self,radius):
+#         self.radius = radius
+#         self.area = math.pi * radius**2
+#         self.perimeter = 2 * math.pi * radius
+#
+#     def show(self):
+#         print(f"the area of circle of radius {self.radius} is {self.area} and the perimeter is {self.perimeter}")
+#
+# c1 = Circle(21)
+# c2 = Circle(10)
+# c3 = Circle(14)
+# c1.show()
+# c2.show()
+# c3.show()
+
+# class Programmer:
+#     company = "Microsoft"
+#     def __init__(self,name,age,salary):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
+#
+#     def show(self):
+#         print(f"The Person is working in {self.company} the name of person is {self.name} the age of person {self.age} and the salray of person {self.salary}  ")
+#
+#
+# e1 = Programmer(name="Hanzala",age=20,salary=10000)
+# e2 = Programmer(name="Hafsa",age=17,salary=2000000000000)
+# e3 = Programmer(name="Hashir",age=14,salary=10000000000000)
+#
+# e1.show()
+# e2.show()
+# e3.show()
+#
+# class Calculator:
+#     def __init__(self,num):
+#         self.square = num **2
+#         self.cube = num **3
+#         self.squareroot = num ** 0.5
+#
+#     def show (self):
+#         print(f"Calculate the square is {self.square} the cube is {self.cube} and the squareroot is {self.squareroot}  ")
+#
+# n1 = Calculator(3)
+# n2 = Calculator(5)
+# n1.show()
+# n2.show()
+
+# pressure = force / area
+# volume_cylinder = 3.142*r**2*h
+# area = l * b
+# Create a class along with membership functions calculate pressure and volume.
+# Create class for two different shapes of pipes and measure the pressure and volume of crosection
+# class Parameter:
+#     pi = 3.142
+#     def Pressure(self):
+#        pass
+#     def volume(self):
+#         pass
+#
+# class CylinderPipe(Parameter):
+#
+#    def Pressure(self,force):
+#        self.force = force
+#
+#    def cross_section_area(self,radius,height):
+#        self.area = 2 * self.pi * radius**2 + 2 * self.pi * radius * height
+#        self.height = height
+#
+#
+#    def show(self):
+#        print(f"The Pressure of cylinder is {self.area}")
+#
+#
+# ob1 = CylinderPipe()
+# ob1.cross_section_area(5,10)
+# ob1.show()
+#
+# class SquarePipe(Parameter):
+#
+#     def Pressure(self, force):
+#         self.force = force
+#
+#     def cross_section_area(self, side_length):
+#         self.area = 4 * self.pi * side_length**2
+#         self.side_length = side_length
+#
+#     def show(self):
+#         print(f"The Pressure of square pipe is {self.area}")
+#
+# ob2 = SquarePipe()
+# ob2.cross_section_area(8)
+# ob2.show()
+
+# class Calculator:
+#     def __init__(self,num):
+#         self.square = num ** 2
+#         self.cube = num ** 3
+#         self.squareroot = num ** 0.5
+#
+#     @staticmethod
+#     def greet ():
+#         print("Hello User")
+#
+#     def show (self):
+#         print(f"Calculate the square is {self.square} the cube is {self.cube} and the squareroot is {self.squareroot}  ")
+#
+# n1 = Calculator(3)
+# n2 = Calculator(5)
+# Calculator.greet()
+# n1.show()
+# n2.show()
+
+
+
