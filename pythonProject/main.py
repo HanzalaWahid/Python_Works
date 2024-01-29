@@ -1,35 +1,24 @@
-# # class circle (object):
-# #     def __init__(self,radius,color):
-# #         self.radius = radius
-# #         self.color = color
-# # redcircle = circle(100,"orange")
-# #
-# # #
-# # example_module.py
-#
-# def function1():
-#     print("This is function 1")
-#
-# def function2():
-#     print("This is function 2")
-#
-# def function3():
-#     print("This is function 3")
+import streamlit as st
+st.set_page_config(page_title="My First Website",page_icon=":tada:",layout="wide")
+
+st.subheader("Hey its Me Hanzala :wave:")
+st.title ("I am a Junior Developer from Pakistan")
+st.write ("A passionate developer eager to leran how to develop and deploy website to keen my knowledge as a developer want to enhance my skills")
+st.write ("[Learn more >] (https://github.com/HanzalaWahid)" )
 
 
-# list = [1,2,43,21,223,43]
-#
-# my_list = [i*2 for i in list]
-# print(my_list)
-#
-# square = [x*x for x in range (10) if x %2  == 0]
-# print(square)
-#
-# name = ["Hanzala","Mashood","Talha"]
-# roll_number = [46,45,22]
-#
-# name_roll_number = (list(zip(name,roll_number)))
-#
-# for name , roll_number in name_rollnumber:
-#     print(f"Name: {name}, Roll_number: {roll_number}")
+with st.container():
+    st.write
+    left_column,right_column  = st.columns([4,1])  # Create two columns with equal width
 
+with left_column:
+    st.header ('About')                            # Add a title for this section
+    st.markdown('''
+                **About me**
+                
+                I'm Wahid Hanzala and I'm currently pursuing my Bachelor of Science in Artificial Intelligence at Dawood University of Engineering &  Technology (DUET). My I am a junior developer who is passionate about learning Python programming languages and technologies. My main
+                Domain is Data Science  and I'm currently learning Python programming language My main interest lies in Data Visualization and Deep Learning.
+                I'm Hanzala Wahid, a junior developer who is passionate about coding
+                ''')
+
+                
