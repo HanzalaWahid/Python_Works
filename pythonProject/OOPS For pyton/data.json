@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "Dan",
+    "StudyHours": 10,
+    "Grade": 50
+  },
+  {
+    "Name": "Joann",
+    "StudyHours": 11.5,
+    "Grade": 50
+  },
+  {
+    "Name": "Pedro",
+    "StudyHours": 9,
+    "Grade": 47
+  },
+  {
+    "Name": "Rosie",
+    "StudyHours": 16,
+    "Grade": 97
+  },
+  {
+    "Name": "Ethan",
+    "StudyHours": 9.25,
+    "Grade": 49
+  },
+  {
+    "Name": "Vicky",
+    "StudyHours": 1,
+    "Grade": 3
+  },
+  {
+    "Name": "Frederic",
+    "StudyHours": 11.5,
+    "Grade": 53
+  },
+  {
+    "Name": "Jimmie",
+    "StudyHours": 9,
+    "Grade": 42
+  },
+  {
+    "Name": "Rhonda",
+    "StudyHours": 8.5,
+    "Grade": 26
+  },
+  {
+    "Name": "Giovanni",
+    "StudyHours": 14.5,
+    "Grade": 74
+  },
+  {
+    "Name": "Francesca",
+    "StudyHours": 15.5,
+    "Grade": 82
+  },
+  {
+    "Name": "Rajab",
+    "StudyHours": 13.75,
+    "Grade": 62
+  },
+  {
+    "Name": "Naiyana",
+    "StudyHours": 9,
+    "Grade": 37
+  },
+  {
+    "Name": "Kian",
+    "StudyHours": 8,
+    "Grade": 15
+  },
+  {
+    "Name": "Jenny",
+    "StudyHours": 15.5,
+    "Grade": 70
+  },
+  {
+    "Name": "Jakeem",
+    "StudyHours": 8,
+    "Grade": 27
+  },
+  {
+    "Name": "Helena",
+    "StudyHours": 9,
+    "Grade": 36
+  },
+  {
+    "Name": "Ismat",
+    "StudyHours": 6,
+    "Grade": 35
+  },
+  {
+    "Name": "Anila",
+    "StudyHours": 10,
+    "Grade": 48
+  },
+  {
+    "Name": "Skye",
+    "StudyHours": 12,
+    "Grade": 52
+  },
+  {
+    "Name": "Daniel",
+    "StudyHours": 12.5,
+    "Grade": 63
+  },
+  {
+    "Name": "Aisha",
+    "StudyHours": 12,
+    "Grade": 64
+  },
+  {
+    "Name": "Bill",
+    "StudyHours": 8,
+    "Grade": null
+  },
+  {
+    "Name": "Ted",
+    "StudyHours": null,
+    "Grade": null
+  }
+]
