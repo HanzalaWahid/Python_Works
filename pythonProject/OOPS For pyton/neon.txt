@@ -1,0 +1,2 @@
+Action: deposit, Amount: 100
+Action: withdrawal, Amount: 600

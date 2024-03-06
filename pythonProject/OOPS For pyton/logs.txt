@@ -1,0 +1,8 @@
+Ammount: 700 Action:depositeAmmount: 300 Action:withdrawAmount 700 deposite successfully
+Amount 300 withdraw successfully
+Amount 700 deposite successfully
+Amount 300 withdraw successfully
+Amount 700 deposite successfully
+Amount 300 withdraw successfully
+Amount 700 deposite successfully
+Amount 300 withdraw successfully

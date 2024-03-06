@@ -1,0 +1,1 @@
+Ammount 100 is depositeAmmount 50 is withdrawAmmount 100 is depositeAmmount 50 is withdrawAmmount 100 is depositeAmmount 50 is withdraw

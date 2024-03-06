@@ -1,0 +1,3 @@
+Action: deposite ,Ammount:300Action: deposite ,Ammount:300Action: deposite ,Ammount:300Action: withdraw ,Ammount:600Action: deposite ,Ammount:300Action: withdraw ,Ammount:600Action: deposite ,Ammount:300Action: withdraw ,Ammount:600Action: deposite ,Ammount:300Action: withdraw ,Ammount:600Action: deposit, Amount: 300
+Action: withdrawal, Amount: 600
+Action: deposite,Deposite:700Action: withdraw,Deposite:450Action: deposite,Deposite:700Action: withdraw,Deposite:450Action: deposite,Deposite:700Action: withdraw,Deposite:450
