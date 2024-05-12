@@ -252,37 +252,86 @@
 # print(f"Factorial of {num} is {factorial(num)}")
 
 
-class Car:
-    total_car = 0
-    def __init__(self,brand,model,fuel):
-        self.__brand = brand
-        self.model = model
-        self.fuel = fuel
-        Car.total_car += 1
+# class Car:
+#     total_car = 0
+#     def __init__(self,brand,model,fuel):
+#         self.__brand = brand
+#         self.model = model
+#         self.fuel = fuel
+#         Car.total_car += 1
+#
+#     def fuel_type(self):
+#         print(f"The fuel required is {self.fuel}")
+#     def show(self):
+#         print(f"The brand name is {self.get_brand()} and model is {self.model} and the fuel required is {self.fuel}")
+#     def get_brand(self):
+#         return self.__brand
+#
+# c1 = Car("Toyota","CLI","2 liter diesel")
+# c1.show()
+# # print(f"Model:{c1.model} Brand:{c1.get_brand()}")
+# class Electric_Car(Car):
+#     def __init__(self,brand,model,battery_size,Electric_charge):
+#         super().__init__(brand,model,Electric_charge)
+#         self.battery_size = battery_size
+#         self.Electric_charge = Electric_charge
+#     def fuel_type(self):
+#         print(f"The fuel required is {self.Electric_charge}")
+#
+#     def display(self):
+#         super().show()
+#         # print(f"The size of battery is {self.battery_size} and fuel requried is {self.Electric_charge}")
+#
+# c2 = Electric_Car("Rolls Royals","LAMOZIN","T40-78A","20 volts")
+# c2.display()
+# print(Car.total_car)
 
-    def fuel_type(self):
-        print(f"The fuel required is {self.fuel}")
-    def show(self):
-        print(f"The brand name is {self.get_brand()} and model is {self.model} and the fuel required is {self.fuel}")
-    def get_brand(self):
-        return self.__brand
+# import time
+# def timer(func):
+#     def wrapper(*args,**kwarg):
+#         start_time = time.time()
+#         result = func(*args,**kwarg)
+#         end_time = time.time()
+#         print(f"start time: {start_time} end time: {end_time}")
+#         return result
+#     return wrapper
 
-c1 = Car("Toyota","CLI","2 liter diesel")
-c1.show()
-# print(f"Model:{c1.model} Brand:{c1.get_brand()}")
-class Electric_Car(Car):
-    def __init__(self,brand,model,battery_size,Electric_charge):
-        super().__init__(brand,model,Electric_charge)
-        self.battery_size = battery_size
-        self.Electric_charge = Electric_charge
-    def fuel_type(self):
-        print(f"The fuel required is {self.Electric_charge}")
+# @timer
+# def example_function(n):
+#     time.sleep(n)
 
-    def display(self):
-        super().show()
-        # print(f"The size of battery is {self.battery_size} and fuel requried is {self.Electric_charge}")
+# example_function(2)
 
-c2 = Electric_Car("Rolls Royals","LAMOZIN","T40-78A","20 volts")
-c2.display()
-print(Car.total_car)
+# def debug (func):
+#     def wrapper(*args,**kwargs):
+#         args_value = ', '.join(str(arg) for arg in args)
+#         kwargs_value = ', '.join(f"{key} = {value}" for key, value in kwargs.items())
+#         result = func(*args,**kwargs)
+#         print(f"calling {func.__name__} with value is args: {args_value}, kwargs is {kwargs_value}")
+#         return result
+#     return wrapper
+# @debug
+# def greet(name,greet="Hello"):
+#     print(f"{name} {greet}")
+#
+# greet("Hanzala")
+
+
+import time
+
+# def cache(func):
+#
+#     cache_value = {}
+#     def wrapper(*args):
+#         if args in cache_value:
+#             return cache_value[args]
+#         result = func(*args)
+#         return result
+#     return wrapper
+# @cache
+# def long_function(a,b):
+#     time.sleep(4)
+#     return a + b
+#
+# print(long_function(4,5))
 
